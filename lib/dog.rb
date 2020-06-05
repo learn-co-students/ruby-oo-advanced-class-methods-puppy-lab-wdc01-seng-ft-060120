@@ -20,8 +20,8 @@ class Dog
     end
 
     def self.print_all
-        puts @@all.map {|d| d.name}
-        # puts self.name
+        @@all.map {|d| d.name}
+        puts @@all.name
     end
     # binding.pry
 
